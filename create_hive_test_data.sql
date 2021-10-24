@@ -1,3 +1,7 @@
+--create database;
+create database testdata;
+--alter default database to testdata;
+use testdata;
 --create table;
 CREATE TABLE IF NOT EXISTS test(id INT, name STRING, password STRING, salary INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
 --load data
